@@ -14,7 +14,7 @@ describe('index.js', function () {
       });
     });
 
-    describe('removeLast()', function () {
+    describe('removeLast', function () {
       it('removes the last pet from the pets array', function () {
         expect(removeLast).to.have.ordered.members(["Milo", "Otis"]).and.to.not.include('Garfield');
       });
